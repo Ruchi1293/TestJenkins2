@@ -12,6 +12,7 @@ namespace JenkinsTest
         }
 
         [Test]
+        [Category("smoke")]
         public void Test1()
         {
             IWebDriver driver = new ChromeDriver();
