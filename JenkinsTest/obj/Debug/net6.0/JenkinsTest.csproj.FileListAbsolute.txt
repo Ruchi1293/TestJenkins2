@@ -214,3 +214,4 @@ D:\WorkSpace\TestProjectForJenkins\Jenkins\JenkinsTest\obj\Debug\net6.0\refint\J
 D:\WorkSpace\TestProjectForJenkins\Jenkins\JenkinsTest\obj\Debug\net6.0\JenkinsTest.pdb
 D:\WorkSpace\TestProjectForJenkins\Jenkins\JenkinsTest\obj\Debug\net6.0\JenkinsTest.genruntimeconfig.cache
 D:\WorkSpace\TestProjectForJenkins\Jenkins\JenkinsTest\obj\Debug\net6.0\ref\JenkinsTest.dll
+D:\WorkSpace\TestProjectForJenkins\Jenkins\JenkinsTest\bin\Debug\net6.0\test.JSON

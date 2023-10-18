@@ -1,6 +1,7 @@
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium;
+using Newtonsoft.Json.Linq;
 
 namespace JenkinsTest
 {
@@ -15,11 +16,12 @@ namespace JenkinsTest
         [Category("smoke")]
         public void Test1()
         {
-            IWebDriver driver = new ChromeDriver();
-            driver.Navigate().GoToUrl("https://www.facebook.com/");
-            IWebElement CreateAccount = driver.FindElement(By.XPath("//a[text()='Create new account']"));
-            CreateAccount.Click();
-            driver.Dispose();
+            //IWebDriver driver = new ChromeDriver();
+            //driver.Navigate().GoToUrl("https://www.facebook.com/");
+            //IWebElement CreateAccount = driver.FindElement(By.XPath("//a[text()='Create new account']"));
+            //CreateAccount.Click();
+            //driver.Dispose();
+            JObject q = JObject.Parse(File.ReadAllText("test.JSON"));
         }
 
         [Test]
